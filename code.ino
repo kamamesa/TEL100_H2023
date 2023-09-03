@@ -59,10 +59,10 @@ void loop() {
     // Have the lamp on during daytime.
     // More complex schedules are easily possible in the if condition.
     if (isAM()) {
-      digitalWrite(relayPin, HIGH); // Powers the relay  
+      digitalWrite(relayPin, HIGH); // Closes the relay  
       danger = true;
     } else {
-      digitalWrite(relayPin, LOW);  // Shuts the relay
+      digitalWrite(relayPin, LOW);  // Opens the relay
       danger = false;
     }
 
