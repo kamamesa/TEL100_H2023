@@ -24,8 +24,8 @@ const int drynessThreshold = 450;
 bool danger;
 
 // Set up nap lengths...
-const int littleNap = 5;  // Nap length with inactive relay, minutes
-const int bigNap = 15;    // Nap length with active relay, minutes
+const int littleNap = 5;  // Nap length with active relay, minutes
+const int bigNap = 15;    // Nap length with inactive relay, minutes
 
 // Declaring stepper motor.
 Stepper motor = Stepper(stepRef,motorPin1,motorPin2,motorPin3,motorPin4);
